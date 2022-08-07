@@ -42,3 +42,6 @@ distribución de carpetas:
 - **/:** Dentro del Directorio raíz se tienen los archivos Server.py (control de flujo principal) y constans.py (Contenedor de variables constantes utilizadas por el programa)
 - **/ServerMet:** Dentro de este directorio se encuentra el archivo get.py (control de flujo de las peticiones get) y el directorio Recursos.
 - **/ServerMet/Recursos/:** Dentro de este directorio se encuentran todos los archivos utilizados por nuestra página web
+
+#### Direccion IP ####
+54.145.202.4
