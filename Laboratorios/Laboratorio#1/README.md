@@ -66,7 +66,7 @@ distribución de carpetas:
 - **/ServerMet:** Dentro de este directorio se encuentra el archivo get.py (control de flujo de las peticiones get) y el directorio Recursos.
 - **/ServerMet/Recursos/:** Dentro de este directorio se encuentran todos los archivos utilizados por nuestra página web
 
-<<<<<<< HEAD
+
 ----
 
 ### 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerías, paquetes, etc, con sus números de versiones. ###
