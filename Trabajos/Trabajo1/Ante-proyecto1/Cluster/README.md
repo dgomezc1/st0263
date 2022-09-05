@@ -126,4 +126,10 @@ __Operaciones de listas__
 
 ![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/l2.png)
 ---
+
+## Referencias: 
+
+https://redis.io/docs/reference/cluster-spec/
+
+https://www.youtube.com/watch?v=N8BkmdZzxDg
 #### versión README.md -> 1.0 (2022-septiembre) 
