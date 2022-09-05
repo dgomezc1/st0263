@@ -18,189 +18,80 @@ __Implementación de Redis como cluster__
 
 ### 1.1 Requerimientos funcionales y no funcionales  
 
-Se implementa el servicio de base de datos de Redis en modo Cluster, el cual nos permite escalar el sistema, tener una mayor potencia de computo y una alta disponibilidad ante posibles fallos en uno de los nodos. Dicha implementacion cumple con los siguientes requisitos:
-- Se implementa el servicio de Cluster en un unico nodo con multiples puertos
-- Se crea un sistema distrubuido, que permite el acceso al servicio por multiples puertos
-- Se implementa un sistema con alta disponibilidad, esto ya que cada nodo tiene un slave que le permite la replicacion asincronica de los datos
-- Se implementa un servicio con hash para la distribucion de los datos
-
+Se implementa el servicio de base de datos de Redis en modo Cluster, el cual nos permite escalar el sistema, tener una mayor potencia de cómputo y una alta disponibilidad ante posibles fallos en uno de los nodos. Dicha implementación cumple con los siguientes requisitos:
+- Se implementa el servicio de Cluster en un único nodo con múltiples puertos
+- Se crea un sistema distribuido, que permite el acceso al servicio por múltiples puertos
+- Se implementa un sistema con alta disponibilidad, esto ya que cada nodo tiene un Slave que le permite la replicación asincrónica de los datos
+- Se implementa un servicio con hash para la distribución de los datos
 
 ---
 ## 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas. 
 
-Como propuesta de solucion se implementa 6 nodos de servicios de Redis dentro de una unica maquina de AWS. En total son 3 nodos master, cada uno de ellos cuenta con un slave como modo de respaldo, esto con el fin de tener una alta disponibilidad. A su vez, se crea un sistema de distributed hash table, esto para hacer el direccionamiento de las transacciones a la particion correspondiente. Por ultimo se creean 3 slots en los cuales se almacenaran cada uno de los recursos.
-
+Como propuesta de solucion se implementa 6 nodos de servicios de Redis dentro de una única máquina de AWS. En total son 3 nodos master, cada uno de ellos cuenta con un slave como modo de respaldo, esto con el fin de tener una alta disponibilidad. A su vez, se crea un sistema de distributed hash table, esto para hacer el direccionamiento de las transacciones a la partición correspondiente. Por último, se crean 3 slots en los cuales se almacenarán cada uno de los recursos.
  
 ---
 ## 3. Descripción del ambiente de desarrollo y técnico: lenguajes de programación, librerías, paquetes, etc. con sus números de versiones. 
 
-El laboratorio fue realizado utilizando el lenguaje de programación Python, para su ejecución es necesario tener instalado Python por defecto. La principal librería utilizada además de las que tiene Python por defecto es la librería redis la cual es utilizada para la comunicación con el servicio de Redis. Para su instalación lo único que debe de hacer es en la terminal de su editor de código fuente con el cual va a ejecutar el código ingrese el siguiente comando: 
+Para utilizar el servicio de base de datos de Redis en modo cluster se realizó la respectiva configuración siguiendo los pasos que suministra la documentación de dicho servicio como se muestra a continuación.
 
-En este ejemplo de instalación, estamos usando el editor de código visual code: 
+__Creacion del archivo de configuracion redis.conf__
 
-```bash 
-Pip install redis 
-```
+Para este apartado se crea el archivo de configuración de cada uno de los nodos que se desean utilizar dentro del cluster. En este archivo se especifica que va a funcionar como un cluster, se define el archivo de configuración de los nodos y el timeout.
 
-Al momento de instalar redis, se le estará instalando la version 4.3.4 de esta librería.  
+---
+__Corremos los servicios con le archivo de configuracion__
 
-Y la segunda librería seria Json, la cual nos fue útil para encapsular el diccionario, y después ser encapsulado con el utf-8. 
-
-En caso de no tener instalado Python, utilice los siguientes comandos en su terminal: 
+Una vez terminamos de configurar cada uno de los nodos, se procede a correr los servicios con la siguiente linea de codigo. 
 
 ```bash 
-Sudo apt install Python 
+redis-server ./redis.conf
 ```
- 
-Dentro del paquete Script_redis se encuentra 8 scripts de Python los cuales cumplen con las siguientes funciones: 
-- **Script1.py:** Se encarga de realizar las operaciones más básicas dE CRUD las cuales son: 
-    - GET 
-    - SET 
-    - MSET 
-    - INCR 
-- **Sets.py:** Se encarga de implementar las operaciones CRUD sobre los sets, las cuales son la siguientes: 
-    - SADD 
-    - SINTER 
-    - SDIFF 
-    - SUNION 
-    - SUNIONSTORE 
-- **Hash.py:** Se encarga de implementar las operaciones CRUD sobre la estructura de datos hash, que son las siguientes: 
-    - MSET 
-    - HVALS 
-    - HKEYS 
-    - HGET 
-- **Listas.py:** Realiza las operaciones CRUD sobre la estructura de datos de listas. Las operaciones son las siguientes:  
-    - RPUSH 
-    - LRANGE 
-    - LREM 
-    - LPOP 
-    - RPOPLPUSH 
-- **Multi.py:** Se encarga de ejecutar las transacciones dentro de la base de datos Redis 
-- **Expiry.py:** Se encarga de ejecutar las operaciones CRUD que expiran, las cuales son las siguientes: 
-    - SET 
-    - EXPIER 
-    - EXISTS 
-    - SETEX 
-    - TTL 
-    - PERSIST 
-- **Union.py:** Se encarga de ejecutar las operaciones de tipo unión dentro de la base de datos Redis, las cuales son las siguientes: 
-    - ZADD 
-    - ZUNIONSTORE 
-    - ZRANGEBYSCORE 
-- **Sorted.py:** Realiza las operaciones CRUD de tipo sorted que son las siguientes: 
-    - ZADD 
-    - ZINCRBY 
 
+De esta manera se inicializara cada uno de los nodos con su respectivo archivo de configuraición. Igualmente en la parte de abajo de puede observar que en background estan corriendo cada uno de los servicios, eso corriendo el siguiente comando:
 
-Directorios: 
+```bash 
+ps
+```
 
-- **/Script_redis/script1.py**
-- **/Script_redis/expiry.py** 
-- **/Script_redis/hash.py** 
-- **/Script_redis/listas.py** 
-- **/Script_redis/multi.py** 
-- **/Script_redis/sets.py** 
-- **/Script_redis/sorted.py** 
-- **/Script_redis/union.py** 
+---
+__Creacion del cluster__
+
+Para conectar cada uno de los nodos en el modo cluster es necesario correr le siguiente codigo. 
+
+Una vez que se realiza la operacion se pueden observar aspectos relevantes como lo son:
+- **Configuracion de masters:** Para este caso se puede ver como se crean 3 masters, el puerto 7000, 7001 y 7002
+- **Configuracion de slaves:** Para este caso se puede ver como se crean 3 slaves, los cuales son los nodos de los puertos 7003, 7004, 70005
+- **Configuracion de slots:** Se puede observar como se generan 3 slots para los tres masters que se tiene.
 
 ---
 ## 4. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerías, paquetes, etc. Con sus números de versiones. 
 
-__Librerías utilizadas:__
+Para la correcta ejecucion del cluester, es necesario inicializar la maquina de AWS **AvPro-redisCluster**
 
-redis: Librería utilizada para la comunicación con el servicio Redis 
-
-__IP:__ **18.215.164.6** 
+__IP:__ **18.211.121.120** 
 
 __Guia de uso:__
 
-Para iniciar, es necesario inicializar máquina de AWS. Para iniciar correctamente el servicio Redis es necesario ejecutar el siguiente comando: 
+
+Una vez iniciado el servidor, ingrensamos a cada uno de los nodos con el siguiente comando: 
 
 ```bash 
-Redis-server 
+redis-cli -p 7000 -c
 ```
 
-Una vez iniciado el servidor, ingrensamos al directorio /Script_redis/ y ejecutamos cada uno de los scripts de la siguiente manera: 
+```bash 
+redis-cli -p 7001 -c
+```
 
-`Sudo python3 script1.py `
+```bash 
+redis-cli -p 7002 -c
+```
 
-`Sudo python3 expiry.py `
-
-`Sudo python3 hash.py` 
-
-`Sudo python3 listas.py `
-
-`Sudo python3 multi.py` 
-
-`Sudo python3 sets.py` 
-
-`Sudo python3 sorted.py` 
-
-`Sudo python3 union.py `
 
 
 ---
 ## 5.  Evidencia de ejecución. 
 
-__Script1.py__
-
-![Imagen de script1](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/script1.png)
-
-__Resultado:__ 
-
-![Imagen de script1](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_script1.png)
-
----
-__Lista.py:__ 
-
-![Imagen de listas](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/listas.png)
-
-__Resultado:__ 
-
-![Imagen de listas](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_listas.png)
-
----
-__Sorted.py:__ 
-
-![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/sort.png)
-
-__Resultados:__ 
-
-![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_sort.png)
-
----
-__Sets.py:__ 
-
-![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/sets.png)
-
-__Resultados:__ 
-
-![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_sets.png)
-
----
-__Multi.py:__ 
-
-![Imagen de multi](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/multi.png)
-
-__Resultados:__ 
-
-![Imagen de multi](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resutlados_multi.png)
-
----
-__Hash.py:__ 
-
-![Imagen de hash](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/hash.png)
-
-__Resultados:__ 
-
-![Imagen de hash](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_hash.png)
-
----
-## Referencias: 
-
-https://learning-oreilly-com.ezproxy.eafit.edu.co/library/view/seven-databases-in/9781680505962/f_0055.xhtml#d24e41269 
-
-https://cosasdedevs.com/posts/como-utilizar-redis-con-python/ 
 
 ---
 #### versión README.md -> 1.0 (2022-septiembre) 

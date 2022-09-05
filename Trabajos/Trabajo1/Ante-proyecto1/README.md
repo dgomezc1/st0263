@@ -52,38 +52,67 @@ Esto seguido del nombre que le queramos dar y junto a una URL, como este tipo de
 
 # 5. Evidencia.
  
-Sudo apt update
+ __SudoUpdate:__
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/update.png)
+
+ __InstallRedis:__
+  ![Imagen de install de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/install_redis.png)
+
+  __EstadoRedis:__
+  ![Imagen del estado de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/status.png)
+
+  __TurnOff:__
+  ![Imagen turn off server-redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/apague.png)
+
+  __conexion:__
+  ![Imagen de Verificacion de conexion](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/cli.png)
+
+  __noContraseña:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/requirepass.png)
+
+  __siContraseña:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/requirepass2.png)
+
+  __AUTH:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/noauth.png)
+
+  __AUTHOK:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/authok.png)
+
+  __Persistencia:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/config.png)
+
+  __help:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/help.png)
+
+  __KeyValues:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/setget.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/mset.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/incr.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/multi.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/mget.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/mgetuser.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/hmset.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/hgetpassword.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/rpush.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/lrem.png)
+
+  __BrpopLpush:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/brpop.png)
+
+  __ValuesNorepetidos:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sadd.png)
+
+
+
+
+
+
+
+
  
-instalación de redis.
- 
-Estado del redis.
- 
-Para que no se apague el server-redis
- 
-Verificación de conexión mediante el PING
- 
-Se ve que no hay contraseña establecida
- 
-Se establece contraseña
- 
-Se verifica si la contraseña ya fue establecida y si se necesita AUTH
- 
-Se AUTH con la respectiva clave
- 
-Se establece la persistencia en .conf
- 
-Se usa el comando help para saber la versión del redis-cli
- 
- 
- 
- 
- 
- 
- 
- 
+
   
-Comandos para las key values
- 
 Cliente servidor, BRPOP para el cliente y LPUSH para enviar
  
 Set de valores no repetidos
