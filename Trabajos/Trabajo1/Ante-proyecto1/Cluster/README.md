@@ -102,26 +102,28 @@ redis-cli -p 7002 -c
 
 __Pruebas PING__
 
-
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/ping.png)
 ---
 __Cluster slots__
 
-
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/clusterinfo.png)
 ---
 __Operacion basicas__
 
-
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/slotsinfo.png)
 ---
 __Operacion MSET__
 
-
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/mset.png)
 ---
 __Operacion MULTI__
 
-
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/multi.png)
 ---
 __Operaciones de listas__
 
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/l1.png)
 
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/l2.png)
 ---
 #### versión README.md -> 1.0 (2022-septiembre) 
