@@ -4,10 +4,10 @@ import time
 import redis
 import json
 
-def __connection__():                   #Funcion para crear conexion con RabbitMQ
+def __connection__():                   #Funcion para crear conexion 
     while True:
         try:
-            ip = input("Ingrese la direccion IP: ")         #Se solicita direccion IP del servicio RabbitMQ
+            ip = input("Ingrese la direccion IP: ")         #Se solicita direccion IP del servicio 
             puerto = input("Ingrese el puerto: ")
             red = redis.StrictRedis(ip, puerto, charset="utf-8", decode_responses=True)
             queue = input("Ingrese la queue: ")
