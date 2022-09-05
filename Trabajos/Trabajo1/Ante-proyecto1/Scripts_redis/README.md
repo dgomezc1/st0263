@@ -177,55 +177,55 @@ Una vez iniciado el servidor, ingrensamos al directorio /Script_redis/ y ejecuta
 ## 5.  Evidencia de ejecución. 
 
 __Script1.py__
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/script1.png)
-<img src="https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/script1.png" />
+
+![Imagen de script1](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/script1.png)
 
 __Resultado:__ 
 
-<img src="/img/resultados_ script1.png" />
+![Imagen de script1](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_script1.png)
 
 
 __Lista.py:__ 
 
-<img src="/img/listas.png" />
+![Imagen de listas](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/listas.png)
 
 __Resultado:__ 
 
-<img src="/img/resultados_listas.png" /> 
+![Imagen de listas](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_listas.png)
 
 
 __Sorted.py:__ 
 
-<img src="/img/sort.png" />
+![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/sort.png)
 
 __Resultados:__ 
 
-<img src="/img/resultados_sort.png" />
+![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_sort.png)
 
 
 __Sets.py:__ 
 
-<img src="/img/sets.png" /> 
+![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/sets.png)
 
 __Resultados:__ 
 
-<img src="/img/resultados_Sets.png" />
+![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_sets.png)
 
 __Multi.py:__ 
 
-<img src="/img/multi.png" /> 
+![Imagen de multi](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/multi.png)
 
 __Resultados:__ 
 
-<img src="/img/resultados_multi.png" />
+![Imagen de multi](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resutlados_multi.png)
 
 __Hash.py:__ 
 
-<img src="/img/hash.png" /> 
+![Imagen de hash](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/hash.png)
 
 __Resultados:__ 
 
-<img src="/img/resultados_hash.png" />
+![Imagen de hash](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_hash.png)
 
 ---
 ## Referencias: 
