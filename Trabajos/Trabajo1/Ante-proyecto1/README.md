@@ -10,7 +10,8 @@ __Profesor:__
 Edwin Nelson Montoya Munera, emontoya@eafit.edu.co 
 
 ---
- # Proyecto 1 – 1. Activación de la infraestructura TI y 2. Uso de la base de datos mediante operaciones en la versión single-node:
+ # Proyecto 1 – REDIS
+__Activación de la infraestructura TI y 2. Uso de la base de datos mediante operaciones en la versión single-node:__
 
 ---
 
@@ -52,6 +53,9 @@ Sudo apt-get install redis
 ```
 
 ## 4. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerías, paquetes, etc. Con sus números de versiones.
+
+__IP:__ **18.215.164.6** 
+
 En este caso del punto 1 y 2 no fue necesario usar directorios ni librerías ya que al momento de instalar redis de la manera anteriormente dicha, es todo lo que se necesita para llevar a cabo estos puntos. Por parte de la IP, no se necesitó ya que todo lo estaba corriendo en la IP local de la máquina. 
 Guia de uso: 
 Mas que una guía de uso, esta parte será de cómo se puede empezar a usar redis de una forma resumida.
@@ -69,39 +73,51 @@ Esto seguido del nombre que le queramos dar y junto a una URL, como este tipo de
 ## 5. Evidencia.
  
  __SudoUpdate:__
+
  ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/update.png)
 ---
  __InstallRedis:__
+
   ![Imagen de install de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/install_redis.png)
 ---
   __EstadoRedis:__
+
   ![Imagen del estado de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/status.png)
 ---
   __TurnOff:__
+
   ![Imagen turn off server-redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/apague.png)
 ---
   __conexion:__
+
   ![Imagen de Verificacion de conexion](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/cli.png)
 ---
   __noContraseña:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/requirepass.png)
 ---
   __siContraseña:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/requirepass2.png)
 ---
   __AUTH:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/noauth.png)
 ---
   __AUTHOK:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/authok.png)
 ---
   __Persistencia:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/config.png)
 ---
   __help:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/help.png)
 ---
   __KeyValues:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/setget.png)
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/mset.png)
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/incr.png)
@@ -114,18 +130,23 @@ Esto seguido del nombre que le queramos dar y junto a una URL, como este tipo de
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/lrem.png)
 ---
   __BrpopLpush:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/brpop.png)
 ---
   __ValuesNorepetidos:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sadd.png)
 ---
   __SINTER:__
+  
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sadtech.png)
 ---
   __Diferencias:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sdiff.png)
 ---
   __Union:__
+
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/union.png)
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/smemebrs.png)
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/smove.png)

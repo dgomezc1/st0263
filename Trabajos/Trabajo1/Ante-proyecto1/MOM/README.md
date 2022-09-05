@@ -1,17 +1,26 @@
-Readme:
-# ST0263 Tópicos Especiales en Telemática, 2022-2
-#
-# Estudiantes:
-David Gómez Correa, dgomezc10@eafit.edu.co  
-Samuel Meneses Diaz, smenesesd@eafit.edu.co
-#
-# Profesor:
-Edwin Nelson Montoya Munera, emontoya@eafit.edu.co
-#
----
-## Proyecto 1 – 5. Simulación de MOM con características de redis
+# ST0263 Tópicos Especiales en Telemática, 2022-2 
 
-# 1. Descripción de la actividad 
+__Estudiantes:__ 
+
+David Gómez Correa, dgomezc10@eafit.edu.co   
+Samuel Meneses Diaz, smenesesd@eafit.edu.co 
+
+__Profesor:__ 
+
+Edwin Nelson Montoya Munera, emontoya@eafit.edu.co 
+
+---
+# Ante Proyecto 1 – REDIS
+__Simulación de MOM con características de redis__
+
+- [Ante-Proyecto 1](#ante-proyecto-1---REDIS)
+  - [Descripción de la actividad](#1-descripción-de-la-actividad)
+  - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
+  - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguajes-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
+  - [Descripcion ambiente en produccion](#4-descripción-del-ambiente-de-ejecución-en-producción-lenguaje-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
+  - [Evidencia](#5-evidencia)
+
+## 1. Descripción de la actividad 
 ## 1.1 Requerimientos funcionales y no funcionales 
 Se hizo uso del middleware creado en el lab2 (MOM) y se le agregaron métodos para ser así compatible con redis.
 -	Se implementa un servidor MOM con redis. Dicho servidor cumple con las siguientes funciones:
@@ -32,10 +41,10 @@ o	Procesar los mensajes entrantes e imprimirlos por pantalla.
 ## 1.2 Requerimientos funcionales y no funcionales que no se cumplieron
 Se puedo implementar todo lo solicitado en esta sección numero 5
 ---
-# 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
+## 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 Como propuesta de solución, se implementó un middleware para ser el intermediario entre dos aplicaciones. Esto con el fin de crear dos aplicaciones desacopladas entre sí. Se crea un cliente, el cual es capaz de enviar mensajes a un servidor MOM por medio del protocolo AMQP. Dicho servidor será el encargado de la comunicación y de guardar en cola los mensajes que no han sido retirados. Por último, se implementó un consumidor el cual es capaz de retirar los mensajes enviados por el cliente, para posteriormente ser mostrados en consola. 
 ---
-# 3. Descripción del ambiente de desarrollo y técnico: lenguajes de programación, librerías, paquetes, etc. con sus números de versiones.
+## 3. Descripción del ambiente de desarrollo y técnico: lenguajes de programación, librerías, paquetes, etc. con sus números de versiones.
 
 El proyecto fue realizado utilizando el lenguaje de programación Python, para su ejecución es necesario tener instalado Python por defecto. La principal librería utilizada además de las que tiene Python por defecto es la librería redis la cual es utilizada para la comunicación con el servidor redis . Para su instalación lo único que debe de hacer es en la terminal de su editor de código fuente con el cual va a ejecutar el código ingrese el siguiente comando:
 En este ejemplo de instalación, estamos usando el editor de código visual code:
@@ -50,7 +59,7 @@ Sudo apt install Python
 ```
 
 ---
-# 4. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerías, paquetes, etc. Con sus números de versiones.
+## 4. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerías, paquetes, etc. Con sus números de versiones.
 Directorios:
 
 •	/Ante-proyecto1 /MOM: Directorio donde se encuentran los scripts de consumidor y de MOM 
@@ -61,7 +70,9 @@ __Librerías utilizadas:__
 
 •	redis: Librería utilizada para la comunicación con el servicio Redis
 
-__IP:__ **18.215.164.6** 
+Para la correcta ejecucion del cluester, es necesario inicializar la maquina de AWS **AvPro-redisCluster**
+
+__IP:__ **18.211.121.120** 
 
 __Guia de uso:__
 -	Para iniciar, es necesario inicializar máquina de AWS. Para iniciar correctamente el servicio Redis es necesario ejecutar el siguiente comando:
@@ -83,22 +94,26 @@ Para iniciar, es necesario inicializar máquina de AWS. Para iniciar correctamen
 -	Para finalizar, es necesario ejecutar el archivo consumer.py (sudo python3 consumer.py), es necesario ingresar por pantalla los siguientes datos: Dirección IP,puerto, y nombre de queue. Una vez ingresados dichos datos, el servicio iniciara a consumir los mensajes almacenados en la cola. Una vez consumidos, procesara a procesarlos y mostrarlos por pantalla.
 
 ---
-# 5.  Evidencia
+## 5.  Evidencia
 
 __Consumidor:__
+
 ![imagen del consumidor](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/MOM/img/consumidor.png)
 ---
 __Script IOT1:__
+
 ![imagen del Script IOT1](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/MOM/img/iot1.png)
 ---
 __Script IOT2:__
+
 ![imagen del Script IOT2](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/MOM/img/iot2.png)
 ---
 __CarpetasRedis:__
+
 ![imagen de las carpetas de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/MOM/img/mamahuevo.png)
  
 ---
-# Referencias:
+## Referencias:
 Djuric, P. (2022, 30 marzo). How to use Redis Pub/Sub in your Python Application. Medium. https://blog.devgenius.io/how-to-use-redis-pub-sub-in-your-python-application-b6d5e11fc8de
 
 ---
