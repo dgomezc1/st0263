@@ -102,5 +102,26 @@ redis-cli -p 7002 -c
 
 __Pruebas PING__
 
+
+---
+__Cluster slots__
+
+
+---
+__Operacion basicas__
+
+
+---
+__Operacion MSET__
+
+
+---
+__Operacion MULTI__
+
+
+---
+__Operaciones de listas__
+
+
 ---
 #### versión README.md -> 1.0 (2022-septiembre) 
