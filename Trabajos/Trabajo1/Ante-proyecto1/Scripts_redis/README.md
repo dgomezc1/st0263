@@ -184,7 +184,7 @@ __Resultado:__
 
 ![Imagen de script1](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_script1.png)
 
-
+---
 __Lista.py:__ 
 
 ![Imagen de listas](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/listas.png)
@@ -193,7 +193,7 @@ __Resultado:__
 
 ![Imagen de listas](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_listas.png)
 
-
+---
 __Sorted.py:__ 
 
 ![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/sort.png)
@@ -202,7 +202,7 @@ __Resultados:__
 
 ![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_sort.png)
 
-
+---
 __Sets.py:__ 
 
 ![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/sets.png)
@@ -211,6 +211,7 @@ __Resultados:__
 
 ![Imagen de sort](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resultados_sets.png)
 
+---
 __Multi.py:__ 
 
 ![Imagen de multi](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/multi.png)
@@ -219,6 +220,7 @@ __Resultados:__
 
 ![Imagen de multi](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/resutlados_multi.png)
 
+---
 __Hash.py:__ 
 
 ![Imagen de hash](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/hash.png)
