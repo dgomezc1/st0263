@@ -178,7 +178,7 @@ Una vez iniciado el servidor, ingrensamos al directorio /Script_redis/ y ejecuta
 
 __Script1.py__
 
-<img src="/img/script1.png" />
+<img src="https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Scripts_redis/img/script1.png" />
 
 __Resultado:__ 
 
