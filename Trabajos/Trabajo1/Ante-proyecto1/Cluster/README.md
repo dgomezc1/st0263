@@ -38,6 +38,12 @@ __Creacion del archivo de configuracion redis.conf__
 
 Para este apartado se crea el archivo de configuración de cada uno de los nodos que se desean utilizar dentro del cluster. En este archivo se especifica que va a funcionar como un cluster, se define el archivo de configuración de los nodos y el timeout.
 
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/creacionconf.png)
+
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/archivoconf.png)
+
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/replicacion.png)
+
 ---
 __Corremos los servicios con le archivo de configuracion__
 
@@ -46,6 +52,8 @@ Una vez terminamos de configurar cada uno de los nodos, se procede a correr los 
 ```bash 
 redis-server ./redis.conf
 ```
+
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/correrservicios.png)
 
 De esta manera se inicializara cada uno de los nodos con su respectivo archivo de configuraición. Igualmente en la parte de abajo de puede observar que en background estan corriendo cada uno de los servicios, eso corriendo el siguiente comando:
 
@@ -57,6 +65,8 @@ ps
 __Creacion del cluster__
 
 Para conectar cada uno de los nodos en el modo cluster es necesario correr le siguiente codigo. 
+
+![Imagen de conf](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/Cluster/img/slots.png)
 
 Una vez que se realiza la operacion se pueden observar aspectos relevantes como lo son:
 - **Configuracion de masters:** Para este caso se puede ver como se crean 3 masters, el puerto 7000, 7001 y 7002
@@ -87,11 +97,10 @@ redis-cli -p 7001 -c
 redis-cli -p 7002 -c
 ```
 
-
-
 ---
 ## 5.  Evidencia de ejecución. 
 
+__Pruebas PING__
 
 ---
 #### versión README.md -> 1.0 (2022-septiembre) 

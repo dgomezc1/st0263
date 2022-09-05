@@ -103,27 +103,19 @@ Esto seguido del nombre que le queramos dar y junto a una URL, como este tipo de
   __ValuesNorepetidos:__
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sadd.png)
 
+  __SINTER:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sadtech.png)
 
+  __Diferencias:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/sdiff.png)
 
+  __Union:__
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/union.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/smemebrs.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/smove.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/spop.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/zadd.png)
 
-
-
-
-
- 
-
-  
-Cliente servidor, BRPOP para el cliente y LPUSH para enviar
- 
-Set de valores no repetidos
- 
-SINTER: Intercepto de dos sets
- 
-Diferencia lo que esta en news y no en tech
- 
-Union y guardar unión 
- 
- 
  
  
 
