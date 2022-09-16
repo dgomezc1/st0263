@@ -135,14 +135,14 @@ Dentro del paquete Script_redis se encuentra 8 scripts de Python los cuales cump
 
 Directorios: 
 
-- **/Script_redis/script1.py**
-- **/Script_redis/expiry.py** 
-- **/Script_redis/hash.py** 
-- **/Script_redis/listas.py** 
-- **/Script_redis/multi.py** 
-- **/Script_redis/sets.py** 
-- **/Script_redis/sorted.py** 
-- **/Script_redis/union.py** 
+- **/script/script1.py**
+- **/script/expiry.py** 
+- **/script/hash.py** 
+- **/script/listas.py** 
+- **/script/multi.py** 
+- **/script/sets.py** 
+- **/script/sorted.py** 
+- **/script/union.py** 
 
 ---
 ## 4. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerías, paquetes, etc. Con sus números de versiones. 
