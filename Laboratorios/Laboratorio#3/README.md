@@ -141,49 +141,93 @@ docker-compose up --build -d
 
 ## 5. Envidencias de desarrollo del laboratorio
 
- __SudoUpdate:__
+ __Creacion de maquina en GCP:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/update.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
 ---
- __InstallRedis:__
 
-  ![Imagen de install de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/install_redis.png)
----
-  __EstadoRedis:__
+ __Creacion de clave ssh:__
 
-  ![Imagen del estado de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/status.png)
+  ![Imagen de install de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/Creaciondeclave.png)
 ---
-  __TurnOff:__
 
-  ![Imagen turn off server-redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/apague.png)
----
-  __conexion:__
+  __Creacion de usario-clave a GCP:__
 
-  ![Imagen de Verificacion de conexion](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/cli.png)
+  ![Imagen del estado de redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/anadirclave.png)
 ---
-  __noContraseña:__
+
+  __Conexion ssh de manera local:__
+
+  ![Imagen turn off server-redis](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/conexionssh.png)
+---
+
+  __Creacion de dominio:__
+
+  ![Imagen de Verificacion de conexion](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/Creaciondominio.png)
+---
+
+  __Configuracion de DNS:__
+
+  ![Imagen de Verificacion de conexion](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/dns.png)
+---
+
+  __Instalacion de lets encrypt:__
 
   ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/requirepass.png)
 ---
-  __siContraseña:__
 
-  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/requirepass2.png)
----
-  __AUTH:__
+  __Instalacion de nginx:__
 
-  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/noauth.png)
----
-  __AUTHOK:__
-
-  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/authok.png)
----
-  __Persistencia:__
-
-  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/config.png)
----
-  __help:__
-
-  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Trabajo1/Ante-proyecto1/img/help.png)
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/intnginx.png)
 ---
 
+  __Configuracion de nginx:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/confngix.png)
+---
+
+  __Creacion de TXT:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionTXT.png)
+---
+
+  __Creacion de carpeta ssl wordpress:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionConfig.png)
+---
+
+  __Creacion de Dhpragram:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionDhpta.png)
+---
+
+  __Instalacion de Docker:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/dockerins.png)
+---
+
+  __Instalacion de docker compose:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/dckercompose.png)
+---
+
+  __Creacion de wordpress:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creaciondewordpress.png)
+---
+
+  __Resvision pagina web:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/revisionpagweb.png)
+---
+
+  __Revision de clave ssl:__
+
+  ![Imagen de contraseña no establecida](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/CERTIFICA.png)
+---
+
+## 6. Referencias
+https://github.com/st0263eafit/st0263-2022-2/tree/main/docker-nginx-wordpress-ssl-letsencrypt
+
+---
 #### versión README.md -> 1.0 (2022-agosto)
