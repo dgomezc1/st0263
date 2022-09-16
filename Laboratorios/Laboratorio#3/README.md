@@ -19,6 +19,7 @@ __Despliegue de wordpress en docker usando GCP__
   - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguajes-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
   - [Descripcion ambiente en produccion](#4-descripción-del-ambiente-de-ejecución-en-producción-lenguaje-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
   - [Evidencias de desarrollo](#5-envidencias-de-desarrollo-del-laboratorio)
+  - [Referencias](#6-referencias)
 
 --- 
 
