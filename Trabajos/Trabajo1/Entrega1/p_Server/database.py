@@ -50,6 +50,6 @@ class Databases:
 
     def resetdb(self):              
         self.db={}              #Resetamos el objecto de json
-        self.savedb()           #Se guardan los cambios en local
+        self.savedb()          #Se guardan los cambios en local
         return True 
 
