@@ -10,15 +10,15 @@ __Profesor:__
 
 ---
 
-# Laboratorio #3 - Wordpress 
+# Laboratorio #4 - Wordpress 
 __Despliegue de wordpress en docker usando GCP__
 
-- [Laboratorio 3](#laboratorio-3---wordpress)
+- [Laboratorio 4](#laboratorio-4---wordpress)
   - [Descripción de la actividad](#1-descripción-de-la-actividad)
   - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
   - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguajes-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
   - [Descripcion ambiente en produccion](#4-descripción-del-ambiente-de-ejecución-en-producción-lenguaje-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
-  - [Evidencias de desarrollo](#5-envidencias-de-desarrollo-del-laboratorio)
+  - [Evidencias de desarrollo](#5-evidencias-de-desarrollo)
   - [Referencias](#6-referencias)
 
 --- 
@@ -223,39 +223,46 @@ services:
 
  __Instalacion de nfs-kernel-server:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/1.png)
 ---
 
  __Archivo de configuracion NFS:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/2.png)
 ---
 
  __Configuracion de firewall nfs-server:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/3.png)
 ---
 
  __Configuracion de nfs-client:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/4.png)
 
-  ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+  ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/5.png)
 ---
 
  __Depliegue de docker compose wordpress:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/6.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/7.png)
 ---
 
  __Depliegue mysql:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/10.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/8.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/9.png)
 ---
 
  __Resultado Final:__
 
- ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%233/img/creacionmaquina.png)
+ ![imagen del sudo update](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%234/img/11.png)
 ---
+
+## 6. Referencias
+https://github.com/st0263eafit/st0263-2022-2/tree/main/docker-nginx-wordpress-ssl-letsencrypt
+
+---
+#### versión README.md -> 1.0 (2022-agosto)
