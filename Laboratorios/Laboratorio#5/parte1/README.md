@@ -13,13 +13,12 @@ __Profesor:__
 # Laboratorio #5 - BIG DATA 
 __Cluster AWS EMR__
 
-- [Laboratorio 4](#laboratorio-4---wordpress)
-  - [Descripción de la actividad](#1-descripción-de-la-actividad)
+- [Laboratorio 5.1](#laboratorio-5---big-data)
+  - [Descripción de la actividad](#1-breve-descripción-de-la-actividad)
   - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
-  - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguajes-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
-  - [Descripcion ambiente en produccion](#4-descripción-del-ambiente-de-ejecución-en-producción-lenguaje-de-programación-librerías-paquetes-etc-con-sus-números-de-versiones)
-  - [Evidencias de desarrollo](#5-evidencias-de-desarrollo)
-  - [Referencias](#6-referencias)
+  - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguaje-de-programación-librerias-paquetes-etc-con-sus-numeros-de-versiones)
+  - [Evidencias de desarrollo](#4-evidencias-de-desarrollo)
+  - [Referencias](#5-referencias)
 
 --- 
 
@@ -68,50 +67,64 @@ __Aplicaciones y versiones utilizadas:__
 
 #### **Configuracion de EMR**  
 * Seleccion de las aplicaciones del EMR 
-![image text](/img/1_part_1/conf.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf.png)  
   
 * Configuracion de las instancias de master y slave 
-![image text](/img/1_part_1/conf_2.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf_2.png)  
     
 * Configuracion del nombre del cluster 
-![image text](/img/1_part_1/conf_3.png)  
+
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf_3.png)  
   
 * Configuracion de claves de acceso
-![image text](/img/1_part_1/conf_4.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf_4.png)  
   
 * Resultado de la configuracion del EMR 
-![image text](/img/1_part_1/resultado.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/resultado.png)  
   
 * Acceso a la terminal de EMR   
-![image text](/img/1_part_1/terminal.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/terminal.png)  
   
 ---
 
 #### **Configuracion de puertos y aplicaciones**  
   
 * Configuracion de los puertos para acceso de las aplicaciones  
+
 ![image text](/img/1_part_2/conf_acceso_port.png)  
   
-* Configuracion del S3 para la persistencia de los archivos  
+* Configuracion del S3 para la persistencia de los archivos 
+
 ![image text](/img/1_part_2/Creacion_s3.png)  
 
 ---
 
 #### **Prueba de aplicaciones**  
 
-* Se cambia el nombre del cluster y se dejan las demas opciones por defecto  
+* Se cambia el nombre del cluster y se dejan las demas opciones por defecto
+
 ![image text](/img/1_part_2/huev.png)  
   
 * Se realiza la asignación de la clave .pem  
+
 ![image text](/img/1_part_2/huev_inside.png)  
   
-* Se crea el cluster y luego se debe esperar a que este se ejecute  
+* Se crea el cluster y luego se debe esperar a que este se ejecute 
+
 ![image text](/img/1_part_2/gui_spark.png)  
   
-* Se verifica que el cluster se inicio de manera correcta  
+* Se verifica que el cluster se inicio de manera correcta 
+
 ![image text](/img/1_part_2/spark_context.png)  
   
 * Se configuran los puertos para el master  
+
 ![image text](/img/1_part_2/confirmacion_zepelin.png)  
   
 ---
