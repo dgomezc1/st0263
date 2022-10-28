@@ -97,11 +97,11 @@ __Aplicaciones y versiones utilizadas:__
   
 * Configuracion de los puertos para acceso de las aplicaciones  
 
-![image text](/img/1_part_2/conf_acceso_port.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/conf_acceso_port.png)  
   
 * Configuracion del S3 para la persistencia de los archivos 
 
-![image text](/img/1_part_2/Creacion_s3.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/Creacion_s3.png)  
 
 ---
 
@@ -109,23 +109,23 @@ __Aplicaciones y versiones utilizadas:__
 
 * Se cambia el nombre del cluster y se dejan las demas opciones por defecto
 
-![image text](/img/1_part_2/huev.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/huev.png)  
   
 * Se realiza la asignación de la clave .pem  
 
-![image text](/img/1_part_2/huev_inside.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/huev_inside.png)  
   
 * Se crea el cluster y luego se debe esperar a que este se ejecute 
 
-![image text](/img/1_part_2/gui_spark.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/gui_spark.png)  
   
 * Se verifica que el cluster se inicio de manera correcta 
 
-![image text](/img/1_part_2/spark_context.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/spark_context.png)  
   
 * Se configuran los puertos para el master  
 
-![image text](/img/1_part_2/confirmacion_zepelin.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/confirmacion_zepelin.png)  
   
 ---
 
