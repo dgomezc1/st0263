@@ -10,10 +10,10 @@ __Profesor:__
 
 ---
 
-# Laboratorio #5.1 - BIG DATA 
-__Cluster AWS EMR__
+# Laboratorio #5.2 - BIG DATA 
+__Cluster AWS EMR, carga de archivos__
 
-- [Laboratorio 5.1](#laboratorio-5---big-data)
+- [Laboratorio 5.2](#laboratorio-5---big-data)
   - [Descripción de la actividad](#1-breve-descripción-de-la-actividad)
   - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
   - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguaje-de-programación-librerias-paquetes-etc-con-sus-numeros-de-versiones)
@@ -38,10 +38,14 @@ Se despliegan las siguientes aplicaciones:
 - Hue editor SQL en nube
 - Spark es un framework de computacion en cluster, usada para el BIG DATA
 
+Adicional a esto, se realiza una conexion via SSH y via interfaz grafica para la comunicacion con el cluste. Con dicha conexion se realizan distintas tareas como lectura, copia y borrado de unos conjuntos de datos.
+
 ---  
   
 ## 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas 
 Se despliega una arquitectura de servicios de Amazon AWS, EMR, que consta de varias capas. La primera de ellas es la capa de alamacenamiento, en la que se hace uso del S3 para el alamcenamiento distribuido de los datos. Una capa de administracion de recursos, que es la responsable de la administracion de los recursos del cluster. La capa de procesamiento de los datos, que se encarga de procesar y analizar los datos, en este caso se ahce uso de apache Spark. Por utlimo la capa de aplicaciones y programas en la que se hace uso de Hive, Jupyter, entre otras.
+
+Se establece un canal de conexion via ssh para la comunicacion con el EMR y para permitir la carga de archivos.
 
 ---  
   
@@ -60,8 +64,10 @@ __Aplicaciones y versiones utilizadas:__
 - Spark 3.1.1
 - Hue 4.9.0
 
-  
- 
+__Directorios utilizados:__
+
+- **/user/hadoop/dataset:** En este directorio se puede encontrar todos los archivos cargados al EMR por medio de dhfs hfs
+- **/datasets/:** En este directorio se puede encontrar todos los archivos cargados al EMR por medio de SSH
   
 ## 4. Evidencias de desarrollo  
 
