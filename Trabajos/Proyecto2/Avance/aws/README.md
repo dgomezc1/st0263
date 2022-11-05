@@ -79,7 +79,7 @@ __Directorios:__
 
 * Comprobacion de moodle1
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m1.pngg)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m1.png)  
 
 * Comprobacion de moodle2 
 
