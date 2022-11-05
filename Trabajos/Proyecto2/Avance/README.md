@@ -54,11 +54,9 @@ __Ip de maquinas:__
 
 __Docker compose y archivos de maquinas:__
 
-- **Load balancer:** 34.237.100.216
-- **Moodle_1:** 3.222.132.33
-- **Moodle_2:** 3.224.154.71
-- **Servidor NFS:** 18.208.2.129
-- **Base de datos Mariadb:** 52.202.189.128
+- [Nginx](https://github.com/dgomezc1/st0263)
+- [Moodle](https://github.com/dgomezc1/st0263)
+- [Mariadb](https://github.com/dgomezc1/st0263)
 
 __Directorios:__
 
