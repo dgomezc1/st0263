@@ -13,7 +13,7 @@ __Profesor:__
 # Avance 2 - Amazon AWS
 __Despliegue de aplicacion monolitica Moodle__
 
-- [Laboratorio 5.1](#laboratorio-5---big-data)
+- [Anvance 2](#avance-2---amazon-aws)
   - [Descripción de la actividad](#1-breve-descripción-de-la-actividad)
   - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
   - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguaje-de-programación-librerias-paquetes-etc-con-sus-numeros-de-versiones)
@@ -54,9 +54,9 @@ __Ip de maquinas:__
 
 __Docker compose y archivos de maquinas:__
 
-- [Nginx](https://github.com/dgomezc1/st0263)
-- [Moodle](https://github.com/dgomezc1/st0263)
-- [Mariadb](https://github.com/dgomezc1/st0263)
+- [Nginx](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/loadbalancer)
+- [Moodle](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/moodle)
+- [Mariadb](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/mariadb)
 
 __Directorios:__
 
@@ -85,9 +85,6 @@ __Directorios:__
 ---
 
 ## 5. Referencias
-- https://github.com/st0263eafit/st0263-2022-2/tree/main/bigdata
-- https://docs.aws.amazon.com/es_es/emr/latest/ManagementGuide/emr-what-is-emr.html
-- https://docs.aws.amazon.com/es_es/emr/latest/ManagementGuide/emr-overview-arch.html#emr-arch-resource-management
-
+- https://github.com/st0263eafit/st0263-2022-2/tree/main/docker-nginx-wordpress-ssl-letsencrypt
 ---
 #### versión README.md -> 1.0 (2022-octubre)
