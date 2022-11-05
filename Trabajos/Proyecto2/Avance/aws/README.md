@@ -54,9 +54,9 @@ __Ip de maquinas:__
 
 __Docker compose y archivos de maquinas:__
 
-- [Nginx](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/loadbalancer)
-- [Moodle](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/moodle)
-- [Mariadb](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/mariadb)
+- [Nginx](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/aws/loadbalancer)
+- [Moodle](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/aws/moodle)
+- [Mariadb](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/aws/mariadb)
 
 __Directorios:__
 
