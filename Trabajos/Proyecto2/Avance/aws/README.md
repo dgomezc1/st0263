@@ -44,6 +44,10 @@ Se despliega una aplicacion moodle monolitica. Dicha aplicacion por capas, siend
   
 ## 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones 
 
+__NOTA:__ Por favor avisar cuando desee acceder al sitio, se necesita abrir las maquinas primero
+
+__Link:__ https://cloud.dgomezc10.tk/
+
 __Ip de maquinas:__
 
 - **Load balancer:** 34.237.100.216
@@ -71,15 +75,15 @@ __Directorios:__
  
 * Carga de archivos 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/Carga.png)  
 
 * Comprobacion de moodle1
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m1.pngg)  
 
 * Comprobacion de moodle2 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m2.png)  
    
   
 ---
