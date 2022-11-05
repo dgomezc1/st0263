@@ -59,9 +59,9 @@ __Ip de maquinas:__
 
 __Docker compose y archivos de maquinas:__
 
-- [Nginx](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/aws/loadbalancer)
-- [Moodle](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/aws/moodle)
-- [Mariadb](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/aws/mariadb)
+- [Nginx](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/dca/loadbalancer)
+- [Moodle](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/dca/moodle)
+- [Mariadb](https://github.com/dgomezc1/st0263/tree/main/Trabajos/Proyecto2/Avance/dca/mariadb)
 
 __Directorios:__
 
@@ -74,19 +74,14 @@ __Directorios:__
   
 ## 4. Evidencias de desarrollo  
  
-* Carga de archivos 
+* Comporbacion de moodle https
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/Carga.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/dca/img/servidor.png)  
 
-* Comprobacion de moodle1
+* Comprobacion de moodle http
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m1.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/dca/img/mod1.png)  
 
-* Comprobacion de moodle2 
-
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m2.png)  
-   
-  
 ---
 
 ## 5. Referencias
