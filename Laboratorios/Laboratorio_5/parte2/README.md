@@ -71,68 +71,97 @@ __Directorios utilizados:__
   
 ## 4. Evidencias de desarrollo  
 
-#### **Configuracion de EMR**  
-* Seleccion de las aplicaciones del EMR 
+#### **Carga de archvios por ssh**  
+* Carga de archivos por medio de ssh 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/carga_scp.png)  
   
-* Configuracion de las instancias de master y slave 
+* Verificacion de carga de archivos 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf_2.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/Captura%20de%20pantalla%202022-10-29%20105305.png)  
+
+* Verificacion de dataset 
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/dataset_local.png) 
     
-* Configuracion del nombre del cluster 
 
+#### **Ejecucion de comandos**
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf_3.png)  
+* Cat
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/cat.png)  
   
-* Configuracion de claves de acceso
+* Chgrp
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/conf_4.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/chgrp.png)  
   
-* Resultado de la configuracion del EMR 
+* chmod
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/resultado.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/chmod.png)  
   
-* Acceso a la terminal de EMR   
+* put
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_1/terminal.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/copiado_manual.png)  
   
 ---
 
 #### **Configuracion de puertos y aplicaciones**  
   
-* Configuracion de los puertos para acceso de las aplicaciones  
+* Cp 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/conf_acceso_port.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/cp3.png)  
   
-* Configuracion del S3 para la persistencia de los archivos 
+* Du
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/Creacion_s3.png)  
+![image text](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/du.png)  
+ 
+
+* ls
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/listado_zip.png)  
+  
+* mv 
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/mv.png)  
+  
+* Ls
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/recursiva.png)  
+  
+* rm
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/rm.png)  
+    
 
 ---
 
-#### **Prueba de aplicaciones**  
-
-* Se cambia el nombre del cluster y se dejan las demas opciones por defecto
-
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/huev.png)  
+#### **Carga archivos s3** 
   
-* Se realiza la asignación de la clave .pem  
+* Carga archivos s3 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/huev_inside.png)  
-  
-* Se crea el cluster y luego se debe esperar a que este se ejecute 
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/carga_carpeta_s3.png)  
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/gui_spark.png)  
-  
-* Se verifica que el cluster se inicio de manera correcta 
+* Guardados S3 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/spark_context.png)  
-  
-* Se configuran los puertos para el master  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/guardados_s3.png)  
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio%235/img/1_part_2/confirmacion_zepelin.png)  
-  
+* Visualiazacion
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/contenido.png)  
+
+* Creacion de directorio 
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/s3_Directorio.png)  
+
+
+* De s3 a hdfs  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/s3_a_hdfs.png)  
+
+* Crecion de dataset 
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Laboratorios/Laboratorio_5/img/2_part_hdfs/Creacion_datasets.png)
+
 ---
 
 ## 5. Referencias
