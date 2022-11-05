@@ -3,6 +3,8 @@
 __Estudiante:__
 
  David Gómez Correa, dgomezc10@eafit.edu.co  
+ Pascual Gomez Londoño, pgomezl@eafit.edu.co
+ Sebastian Granda Gallego, sgrandag@eafit.edu.co
 
 __Profesor:__
 
