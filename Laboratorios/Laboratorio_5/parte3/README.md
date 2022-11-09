@@ -43,12 +43,19 @@ __Librerias:__
 
 __Link de scripts:__
 
-- Hadoop 3.2.1
-- JupyterHub 1.2.0
-- Hive 3.1.2
-- Zeppelin 0.9.0
-- Spark 3.1.1
-- Hue 4.9.0
+- **1.1 :** [Salario Sector](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p1/sal_sector.py)
+- **1.2 :** [Salario Empleado](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p1/sal_empleado.py)
+- **1.3 :** [Numero sectores](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p1/numero_se.py)
+- **2.1 :** [Dia-menor-valor](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p2/dia_accion.py)
+- **2.2 :** [Acciones estables](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p2/estables_accion.py)
+- **3.1 :** [Vistas por usuario](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/usuarios_peli.py)
+- **3.2 :** [Mas peliculas](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/fecha_mayor.py)
+- **3.3 :** [Menos peliculas](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/fecha_menor.py)
+- **3.4 :** [Misma pelicula](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/pelis_per_user.py)
+- **3.5 :** [Peor evaluacion](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/usuarios_peor.py)
+- **3.6 :** [Mejor evaluacion](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/usuarios_menor.py)
+- **3.7 :** [Mejor y Peor](https://github.com/dgomezc1/st0263/blob/main/Laboratorios/Laboratorio_5/parte3/p3/mejor_peor.py)
+
 
 ---  
 
