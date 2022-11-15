@@ -15,7 +15,7 @@ __Profesor:__
 # Proyecto #2 Aplicacion monolitica
 __Despliegue de aplicacion monolitica Moodle en nube__
 
-- [Anvance 2](#avance-2---amazon-aws)
+- [Anvance 2](#proyecto-2-aplicacion-monolitica)
   - [Descripción de la actividad](#1-breve-descripción-de-la-actividad)
   - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
   - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguaje-de-programación-librerias-paquetes-etc-con-sus-numeros-de-versiones)
@@ -41,6 +41,11 @@ Se realiza la creacion y despliege de un servidor de moodle monolitico escalable
 ---  
   
 ## 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas 
+
+* Diseño
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/proyecto2.png)  
+
 Se despliega una aplicacion moodle monolitica. Dicha aplicacion por capas, siendo estas un total de 4. En la primera capa se tiene un balanceador de cargas encargado de distribuir las cargas a las instancias de moodle, esta recibe peticiones por https y las parsea a http, esto incluyendo el algoritmo de roundrobin utilizado. Dicho loadbalancer cuenta igualmente con un certificado ssl para el dominio de __www.dgomezc10.tk__, lo cual permite un canal de comunicacion segura entre los clientes y los servicios que se ofrecen. Igualmente, cabe resalta que se establecen unas reglas de firewall, las cuales unicamente permiten el acceso a los contenidos por el puerto 443 limitando y bloqueando puntos de acceso incesarios al sistema.
 
 Sumado a esto se cuenta con una capa de Aplicacion en la cual se encuentra un grupo de autoscaling de AWS, el cual instancia una maquina de Ubuntu que contiene precargada la instalacion y configuracion de un servicio de Moodle. Se hace uso del grupo de autoscaling con el fin de tener un sistema tolerante a fallos y tener un mejor manejo de cargas. Dicha tolerancia a fallos se logra gracias a que si una instancia se detiene por algun motivo, inmediatamente otra se despliega, al igual que el grupo de autoscaling permite aumentar la cantidad de instancias con relacion a las necesidades del sistema. De esta manera se logra tener una alta disponibilidad del sistema al igual que unos tiempos de respuesta rapidos.
@@ -94,18 +99,35 @@ __Directorios:__
   
 ## 4. Evidencias de desarrollo  
  
-* Carga de archivos 
+* Configuracion Autoscaling 
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/Carga.png)  
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/autoscaling.png)  
 
-* Comprobacion de moodle1
+---
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m1.png)  
+* LoadBalancer
 
-* Comprobacion de moodle2 
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/lb.png)  
 
-![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Avance/aws/img/m2.png)  
-   
+* Configuracion DNS
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/DNS.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/consultaDNS.png) 
+
+---
+
+* Direcciones IP 
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/direcciones.png)  
+
+---
+
+* Prueba funcionamiento 
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/Funciona.png)  
+
+![image text](https://raw.githubusercontent.com/dgomezc1/st0263/main/Trabajos/Proyecto2/Final/img/Funciona2.png) 
   
 ---
 
