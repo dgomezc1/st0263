@@ -10,10 +10,10 @@ __Profesor:__
 
 ---
 
-# Laboratorio #5 - BIG DATA 
-__Cluster AWS EMR__
+# Laboratorio #6 - BIG DATA 
+__Uso de pyspark__
 
-- [Laboratorio 5.1](#laboratorio-5---big-data)
+- [Laboratorio 6](#laboratorio-6---big-data)
   - [Descripción de la actividad](#1-breve-descripción-de-la-actividad)
   - [información general](#2-información-general-de-diseño-de-alto-nivel-arquitectura-patrones-mejores-prácticas-utilizadas)
   - [Descripcion ambiente desarrollo y tecnico](#3-descripción-del-ambiente-de-desarrollo-y-técnico-lenguaje-de-programación-librerias-paquetes-etc-con-sus-numeros-de-versiones)
