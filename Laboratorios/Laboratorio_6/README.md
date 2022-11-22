@@ -80,7 +80,6 @@ __Ejecutar el wordcount por linea de comando 'pyspark' en EMR con datos en S3__
 __Ejecutar el wordcount en JupyterHub Notebooks EMR con datos en S3__
 1. Cargamos el notebook y lo ejecutamos.
     ![](img/5.png)
-    **Nota**: Ver el archivo [wordcount-spark.ipynb](jupyter/wordcount-spark.ipynb).
 
 2. Revisamos que el archivo se haya guardado correctamente
     ![](img/6.png)
